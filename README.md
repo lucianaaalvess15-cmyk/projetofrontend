@@ -1,6 +1,6 @@
 # Plataforma Web para ONGs — Projeto ONG
 
-🔗 Veja o projeto ao vivo: https://github.com/lucianaaalvess15-cmyk/projetofrontend/tree/main
+🔗 Veja o projeto ao vivo: file:///C:/Users/lucia/OneDrive/Documentos/ONG/Projeto/index.html
 
 `STATUS: CONCLUÍDO` `HTML5` `CSS3` `JAVASCRIPT`
 
