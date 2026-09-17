@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Cadastro de colaboradores da ONG Ação Solidária."><title>Ação Solidária | Cadastro</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header><div class="container navbar"><a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">❤</span>Ação Solidária</a>
+<nav aria-label="Navegação principal"><ul><li><a href="index.html">Início</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="cadastro.html" aria-current="page">Seja voluntário</a></li></ul></nav></div></header>
+<main>
+<section class="page-title"><div class="container"><h1>Seja um colaborador</h1><p>Preencha o formulário para demonstrar seu interesse em participar das nossas ações.</p></div></section>
+<section><div class="container"><div id="success" class="alert success" role="status">Cadastro validado com sucesso! Obrigado por querer colaborar.</div>
+<form id="cadastroForm" novalidate><fieldset><legend>Dados pessoais</legend><div class="form-grid">
+<div class="field"><label for="nome">Nome completo *</label><input id="nome" name="nome" type="text" autocomplete="name" required minlength="3"><span id="nomeError" class="error" aria-live="polite"></span></div>
+<div class="field"><label for="cpf">CPF *</label><input id="cpf" name="cpf" inputmode="numeric" autocomplete="off" required><span id="cpfError" class="error" aria-live="polite"></span></div>
+<div class="field"><label for="email">E-mail *</label><input id="email" name="email" type="email" autocomplete="email" required><span id="emailError" class="error" aria-live="polite"></span></div>
+<div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" inputmode="tel" autocomplete="tel" required><span id="telefoneError" class="error" aria-live="polite"></span></div>
+<div class="field"><label for="cep">CEP *</label><input id="cep" name="cep" inputmode="numeric" autocomplete="postal-code" required><span id="cepError" class="error" aria-live="polite"></span></div>
+<div class="field"><label for="cidade">Cidade</label><input id="cidade" name="cidade" type="text" autocomplete="address-level2"></div>
+<div class="field full"><label for="interesse">Área de interesse</label><select id="interesse" name="interesse"><option value="">Selecione</option><option>Educação</option><option>Inclusão digital</option><option>Comunidade</option><option>Comunicação</option><option>Captação de recursos</option></select></div>
+<div class="field full"><label for="mensagem">Como gostaria de colaborar?</label><textarea id="mensagem" name="mensagem" rows="5" maxlength="500"></textarea><span class="help">Até 500 caracteres.</span></div>
+</div></fieldset>
+<p><label><input id="termos" name="termos" type="checkbox" required> Aceito o uso dos dados para contato relacionado às atividades da ONG. *</label></p><span id="termosError" class="error" aria-live="polite"></span>
+<button class="button secondary" type="submit">Enviar cadastro</button>
+</form></div></section>
+</main>
+<footer><div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+<!-- LADO ESQUERDO -->
+<div>
+<strong>Ação Solidária</strong>
+<p>Transformando solidariedade em oportunidades.</p>
+<a href="cadastro.html">Cadastre-se para colaborar</a>
+</div>
+<!-- LADO DIREITO -->
+<div style="text-align: right;">
+<p style="margin: 4px 0;">📍 Rua Jardim, 123 - Aeroclube,São Paulo - SP</p>
+<p style="margin: 4px 0;">✉️ <a href="mailto:contato@acaosolidaria.org.br">contato@acaosolidaria.org.br</a></p>
+<p style="margin: 4px 0;">📞 (11) 99999-9999</p>
+</div>
+</div>
+</footer>
+<script src="js/script.js"></script>
+</body></html>
